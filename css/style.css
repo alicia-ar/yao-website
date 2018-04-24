@@ -1,0 +1,33 @@
+.header {
+    height: 75vh;
+    background:     linear-gradient(
+      rgba(218, 45, 45, 0.35), 
+      rgba(218, 45, 45, 0.35)
+    ), url(../Resources/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    line-height: 75vh;
+}
+
+.header span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 10vh;
+    font-size: 2vw;
+}
+
+.header .maintext {
+    font-size: 10vw;
+}
+
+.footer {
+    background-color: #272822;
+    color: white;
+    text-align: center;
+    height: 25vh;
+}
