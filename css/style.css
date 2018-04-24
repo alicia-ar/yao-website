@@ -56,7 +56,12 @@
     color: white;
     display: block;
     text-align: center;
+<<<<<<< HEAD
     padding: 1.5em 1em;
+=======
+    text-decoration: none;
+    padding: 0.5em 1em;
+>>>>>>> 9310c36c6444c47fa74fb0742e0aace1f0f5816d
 }
 
 .navbar-fixed ul li a:hover {
