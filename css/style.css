@@ -17,12 +17,12 @@
 .header span {
     display: inline-block;
     vertical-align: middle;
-    line-height: 10vh;
-    font-size: 2vw;
+    line-height: 12vh;
+    font-size: 3vh;
 }
 
 .header .maintext {
-    font-size: 10vw;
+    font-size: 20vh;
 }
 
 .footer {
@@ -30,4 +30,45 @@
     color: white;
     text-align: center;
     height: 25vh;
+}
+
+.navbar-fixed {
+    background-color: #272822;
+    position: fixed;
+    display: block;
+    z-index: 500;
+    height: 100vh;
+    width: 16.67vw;
+}
+
+.navbar-fixed .active {
+    background-color: #da2d2d;
+}
+
+.navbar-fixed ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-fixed ul li a {
+    background-color: #272822;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 0.5em 1em;
+}
+
+.navbar-fixed ul li a:hover {
+    background-color: #da2d2d;
+    cursor: pointer;
+}
+
+.logo {
+    width: 100%;
+    padding: 1em;
+}
+
+.format-padding {
+    padding: 0;
 }
