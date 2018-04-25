@@ -12,6 +12,16 @@
     line-height: 75vh;
 }
 
+.main-content {
+    min-height: 100vh;
+}
+
+.main-background {
+    background-color: #272822;
+    color: white;
+    min-height: 75vh;
+}
+
 .header span {
     display: inline-block;
     vertical-align: middle;
@@ -28,9 +38,14 @@
     color: white;
     text-align: center;
     min-height: 25vh;
+    bottom: 0;
 }
 
 @media screen and (max-width: 767px) {
+    #nav-block {
+        height: 80px;
+    }
+    
     .navbar-fixed {
         height: 80px;
         width: 100vw;
@@ -53,6 +68,13 @@
 }
 
 @media screen and (min-width: 768px) {
+    
+
+.bottom {
+    bottom: 0;
+    position: absolute;
+    width: 83.333333vw;
+}
     .navbar-fixed {
         left: 0;
         height: 100vh;
