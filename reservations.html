@@ -50,9 +50,13 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6" id="content-left">
-                            <div>We strive to treat all of our customers equally. In order to be fair, reservations are made on a first come, first serve basis. Individual tables cannot be reserved. However, our private rooms found <a class="nav-button" href="event.html">here</a> can be reserved at no cost.
+                            <div class="res-div">
+                                <div>We strive to treat all of our customers equally. In order to be fair, reservations are made on a first come, first serve basis. Individual tables cannot be reserved. However, our private rooms found <a class="nav-button" href="event.html">here</a> can be reserved at no cost.
+                                </div>
                             </div>
-                            <div>Most reservations can be made the day of your event. To guarantee a room, it is best to reserve a room one week in advance. We are happy to accommodate requests regarding table set-ups and room decorations. For any special requests, please call us in advance at 828-667-0410.</div>
+                            <div class="res-div">
+                                <div>Most reservations can be made the day of your event. To guarantee a room, it is best to reserve a room one week in advance. We are happy to accommodate requests regarding table set-ups and room decorations. For any special requests, please call us in advance at 828-667-0410.</div>
+                            </div>
                         </div>
                         <div class="col-md-6" id="content-right">
                             <form action="/action_page.php">
@@ -90,9 +94,18 @@
                                     <label for="tel">Phone:</label>
                                     <input type="tel" class="form-control" id="tel" placeholder="Enter phone number" name="tel">
                                 </div>
-                                <!-- Datetime Picker for Reservation here -->
+                                <div class="form-group">
+                                    <label for="size">Number of people:</label>
+                                    <input type="text" class="form-control" id="size" placeholder="Enter party size" name="size">
+                                </div>
+                                <div class="form-control">
+                                    <label for="date">Date</label>
+                                    <input type="date" class="form-control" id="size" placeholder="Enter party size" name="size">
+                                </div>
 
+                                <br>
                                 <button type="submit" class="btn btn-default">Submit</button>
+                                <br>
                             </form>
                         </div>
                     </div>

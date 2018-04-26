@@ -197,3 +197,16 @@
     top: 3%;
     bottom: auto;
 }
+
+.buffet-info{
+    text-align: center;
+    padding: 10% 0;
+}
+
+.event-div{
+    padding: 20px;
+}
+
+.res-div{
+    padding: 20px;
+}
