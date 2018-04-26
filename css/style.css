@@ -17,7 +17,7 @@
 }
 
 .main-background {
-    background-color: #272822;
+    background-color: #232323;
     color: white;
     min-height: 75vh;
 }
@@ -33,6 +33,22 @@
     font-size: 20vh;
 }
 
+#header h1 {
+    text-align: center;
+    border-bottom: 1vh solid #da2d2d;
+    padding: 1em;
+        background: linear-gradient( rgba(218, 45, 45, 0.35),
+    rgba(218, 45, 45, 0.35)), url(../Resources/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bottom {
+    border-top: 1vh solid #da2d2d;
+}
+
 .footer {
     background-color: #272822;
     color: white;
@@ -46,6 +62,15 @@
 }
 
 @media screen and (max-width: 767px) {
+    
+    table {
+        text-align: center;
+    }
+    
+    table .menu-entry td {
+        text-align: left;
+    }
+    
     #nav-block {
         height: 80px;
     }
@@ -74,6 +99,10 @@
 @media screen and (min-width: 768px) {
 
 
+    .footer-block {
+        height: 50vh;
+    }
+    
     .bottom {
         bottom: 0;
         position: absolute;

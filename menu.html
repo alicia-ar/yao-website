@@ -10,9 +10,12 @@
 </head>
 
 <body>
-    <div class="navbar-fixed">
+    <div class="navbar-dark navbar-fixed">
         <img src="Resources/yao-logo.png" class="logo" />
-        <ul>
+        <button class="navbar-toggler navbarbut" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <ul class="collapse show-media" id="navbarToggle">
             <li>
                 <a class="nav-button" href="index.html">Home</a>
             </li>
@@ -21,7 +24,6 @@
             </li>
             <li>
                 <a class="nav-button active" href="menu.html">Menu</a>
-                
             </li>
             <li>
                 <a class="nav-button" href="event.html">Event Space</a>
@@ -38,7 +40,7 @@
     <div class="container-fluid">
         <div class="row main-content">
             <div class="col-md-2" id="nav-block"></div>
-            <div class="col-md-10 format-padding main-background" id="content">
+            <div class="col-md-10 main-background" id="content">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-12" id="header">
@@ -47,112 +49,112 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12" id="content">
-                            <table style="width:100%">
-                                <tr>
+                            <table class="menu" style="width:100%">
+                                <tr class="menu-entry">
                                     <th>
                                         <h2>Appetizers</h2>
                                     </th>
                                     <th> </th>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Chicken Egg Rolls (1)</td>
                                     <td>$0.99</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Vegetable Egg Rolls (1)</td>
                                     <td>$0.89</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Crab Rangoon (8)</td>
                                     <td>$2.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Chicken Wings (6)</td>
                                     <td>$3.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Gyoza (Vegetable) (8)</td>
                                     <td>$2.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Thai Chicken Skewers (4)</td>
                                     <td>$4.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Asian BBQ Spareribs (4)</td>
                                     <td>$4.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Fried / Steamed Pork Dumplings (6)</td>
                                     <td>$4.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Siu Mai (6)</td>
                                     <td>$3.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Vietnamese Summer Rolls (4)</td>
                                     <td>$3.95 - $5.95</td>
                                 </tr>
 
-                                <tr>
+                                <tr class="menu-entry">
                                     <th>
                                         <h2>Soups</h2>
                                     </th>
                                     <th>Small/Large</th>
                                 </tr>
 
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Wonton</td>
                                     <td>$1.95 / $3.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Egg Drop</td>
                                     <td>$1.95 / $3.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Hot and Sour</td>
                                     <td>$1.95 / $3.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Seafood Tofu</td>
                                     <td>$2.95 / $5.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Tom Yum</td>
                                     <td>$2.95 / $5.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Miso</td>
                                     <td>$2.95 / $5.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <th>
                                         <h2>Salads</h2>
                                     </th>
                                     <th>Small/Large</th>
 
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Seaweed Salad</td>
                                     <td>$4.95 / $8.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Chicken Salad</td>
                                     <td>$3.95 / $6.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Seafood Salad</td>
                                     <td>$4.95 / $8.95</td>
                                 </tr>
 
-                                <tr>
+                                <tr class="menu-entry">
                                     <th>
                                         <h2>Rice/Noodles</h2>
                                     </th>
                                     <th> </th>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Fried Rice
                                         <div class="food-description">
                                             Stir fried with eggs, carrots, peas, and scallion.
@@ -160,7 +162,7 @@
                                     </td>
                                     <td>$6.95 - $8.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Thai Pineapple Fried Rice
                                         <div class="food-description">
                                             Stir fried with pineapple, raisins, onion and tomatoes.
@@ -168,7 +170,7 @@
                                     </td>
                                     <td>$6.95 - $8.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Mei Fun
                                         <div class="food-description">
                                             Thin rice noodles stir fried with eggs, scallion, cabbage, carrots, and bean sprouts.
@@ -177,7 +179,7 @@
                                     <td>$6.95 - $8.95
                                     </td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Lo Mein
                                         <div class="food-description">
                                             Soft egg noodles stir fried with onions, carrots, napa cabbage, scallions and bean sprouts.
@@ -185,7 +187,7 @@
                                     </td>
                                     <td>$6.95 - $8.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Chow Mein
                                         <div class="food-description">
                                             Pan fried crispy egg noodles served with mixed vegetables in a brown sauce.
@@ -193,7 +195,7 @@
                                     </td>
                                     <td>$6.95 - $8.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Pad Thai
                                         <div class="food-description">
                                             Traditional Thai rice noodles stir fried with bean sprouts, ground peanuts and dried tofu.
@@ -201,53 +203,53 @@
                                     </td>
                                     <td>$6.95 - $8.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <th>
                                         <h2>Vegetarian</h2>
                                     </th>
                                     <th> </th>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Sauteed String Beans</td>
                                     <td>$6.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Steam Vegetable Medley</td>
                                     <td>$6.95</td>
                                 </tr>
 
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Braised Bean Curd</td>
                                     <td>$6.95</td>
                                 </tr>
 
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Shanghai Bok Choy</td>
                                     <td>$6.95</td>
                                 </tr>
 
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Gourmet Vegetable</td>
                                     <td>$6.95</td>
                                 </tr>
 
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Sautéed Broccoli</td>
                                     <td>$6.95</td>
                                 </tr>
 
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Sichuan Tofu</td>
                                     <td>$6.95</td>
                                 </tr>
 
-                                <tr>
+                                <tr class="menu-entry">
                                     <th>
                                         <h2>Chef Specialties</h2>
                                     </th>
                                     <th> </th>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Happy Family
                                         <div class="food-description">
                                             Shrimp, crabmeat, roast pork, chicken, and beef blended with a selection of vegetables in a brown sauce.
@@ -255,7 +257,7 @@
                                     </td>
                                     <td>$8.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Coral Shrimp
                                         <div class="food-description">
                                             Lightly battered jumbo shrimp stir-fried in our chef special sweet and spicy sauce.
@@ -263,7 +265,7 @@
                                     </td>
                                     <td>$10.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>General Tso's Chicken
                                         <div class="food-description">
                                             Deep fried to crispy, then sautéed with slightly sweet and tangy spicy sauce.
@@ -271,7 +273,7 @@
                                     </td>
                                     <td>$8.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Honey Walnut Shrimp
                                         <div class="food-description">
                                             Lightly breaded shrimp stir fried in a sweet mayo home-style sauce.
@@ -279,7 +281,7 @@
                                     </td>
                                     <td>$9.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Salt and Pepper Prawns
                                         <div class="food-description">
                                             Crispy whole prawns tossed in Asian style salt and pepper seasoning.
@@ -287,7 +289,7 @@
                                     </td>
                                     <td>$9.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Sesame Seed Chicken
                                         <div class="food-description">
                                             Lightly battered sliced chicken breast coated with a honey flavored sesame sauce.
@@ -295,7 +297,7 @@
                                     </td>
                                     <td>$8.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Mussels in Black Bean Sauce
                                         <div class="food-description">
                                             New Zealand half shell mussels coated with our chef special black bean sauce.
@@ -303,7 +305,7 @@
                                     </td>
                                     <td>$9.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Salt and Pepper Calamari
                                         <div class="food-description">
                                             Lightly battered calamari tossed in Asian style salt and pepper seasoning.
@@ -311,7 +313,7 @@
                                     </td>
                                     <td>$8.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Mongolian Beef
                                         <div class="food-description">
                                             Stir fried sliced beef with onions, scallion and bamboo shoots in a spicy soy flavor.
@@ -319,7 +321,7 @@
                                     </td>
                                     <td>$7.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Shrimp with Lobster Sasuce
                                         <div class="food-description">
                                             Jumbo shrimp stir-fried with slices of water chestnut, peas and carrots in a white egg sauce.
@@ -327,7 +329,7 @@
                                     </td>
                                     <td>$9.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Dragon and Phoenix
                                         <div class="food-description">
                                             Two dishes in one. Half General Tso’s chicken, the other half Hunan shrimp.
@@ -335,7 +337,7 @@
                                     </td>
                                     <td>$10.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Moo Goo Gai Pan
                                         <div class="food-description">
                                             Sliced chicken breast stir fried with snow peas, carrots, mushrooms, and water chestnuts in a white sauce.
@@ -343,7 +345,7 @@
                                     </td>
                                     <td>$7.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Sizzling Seafood Deluxe
                                         <div class="food-description">
                                             A seafood combination of shrimp, scallop, crabmeat, and vegetables served over crispy rice on a hot plate.
@@ -351,7 +353,7 @@
                                     </td>
                                     <td>$9.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Orange Chicken
                                         <div class="food-description">
                                             Golden battered chicken deep fried and coated with our sweet and tangy orange flavored sauce.
@@ -359,7 +361,7 @@
                                     </td>
                                     <td>$8.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Sweet and Sour
                                         <div class="food-description">
                                             Choice of deep fried chicken, pork, or shrimp garnished with chunks of pineapple, bell pepper, carrots, and cherries. Served with sweet and sour sauce on the side.
@@ -367,13 +369,13 @@
                                     </td>
                                     <td>$6.95 - $8.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <th>
                                         <h2>Classic Stir Fry</h2>
                                     </th>
                                     <th> </th>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Kung Pao
                                         <div class="food-description">
                                             Diced mix vegetables in a sweet spicy sauce topped with peanuts.
@@ -381,7 +383,7 @@
                                     </td>
                                     <td>$6.95 - $8.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Black Bean Sauce
                                         <div class="food-description">
                                             Onions, bell peppers, carrots, and zucchini in a savory black bean sauce.
@@ -389,7 +391,7 @@
                                     </td>
                                     <td>$6.95 - $8.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Garlic Sauce
                                         <div class="food-description">
                                             Onions, carrots, bamboo shoots, water chestnuts and scallion in our spicy garlic sauce.
@@ -397,7 +399,7 @@
                                     </td>
                                     <td>$6.95 - $8.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Mix Vegetables
                                         <div class="food-description">
                                             Cabbage, broccoli, carrots, snow peas, water chestnuts, bamboo shoots, baby corn, zucchini, and mushrooms, in our classic brown sauce.
@@ -405,7 +407,7 @@
                                     </td>
                                     <td>$6.95 - $8.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Sichuan
                                         <div class="food-description">
                                             Shredded celery, carrots and spring onions in a spicy brown sauce.
@@ -413,7 +415,7 @@
                                     </td>
                                     <td>$6.95 - $8.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Hunan
                                         <div class="food-description">
                                             Broccoli, snow peas, mushrooms, bell peppers, and baby corn in a spicy white sauce.
@@ -421,7 +423,7 @@
                                     </td>
                                     <td>$6.95 - $8.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Snow Peas
                                         <div class="food-description">
                                             Sauteed with snow peas and water chestnuts in a light white sauce.
@@ -429,7 +431,7 @@
                                     </td>
                                     <td>$6.95 - $8.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Broccoli
                                         <div class="food-description">
                                             Traditional stir fry with broccoli, carrots and bamboo shoots in our classic brown sauce.
@@ -437,13 +439,13 @@
                                     </td>
                                     <td>$6.95 - $8.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <th>
                                         <h2>Nigiri</h2>
                                     </th>
                                     <th> </th>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Maguro Nigiri
                                         <div class="food-description">
                                             Tuna (3 pieces)
@@ -451,7 +453,7 @@
                                     </td>
                                     <td>$3.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Sake Nigiri
                                         <div class="food-description">
                                             Salmon (3 pieces)
@@ -459,7 +461,7 @@
                                     </td>
                                     <td>$3.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Tako Nigiri
                                         <div class="food-description">
                                             Octopus (3 pieces)
@@ -467,7 +469,7 @@
                                     </td>
                                     <td>$3.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Tamago Nigiri
                                         <div class="food-description">
                                             Egg (3 pieces)
@@ -475,7 +477,7 @@
                                     </td>
                                     <td>$3.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Inari Nigiri
                                         <div class="food-description">
                                             Tofu (3 pieces)
@@ -483,7 +485,7 @@
                                     </td>
                                     <td>$2.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Kani Nigiri
                                         <div class="food-description">
                                             Crabstick (3 pieces)
@@ -491,7 +493,7 @@
                                     </td>
                                     <td>$2.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Unagi Nigiri
                                         <div class="food-description">
                                             Eel (3 pieces)
@@ -499,7 +501,7 @@
                                     </td>
                                     <td>$3.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Saba Nigiri
                                         <div class="food-description">
                                             Mackerel (3 pieces)
@@ -507,7 +509,7 @@
                                     </td>
                                     <td>$3.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Ebi Nigiri
                                         <div class="food-description">
                                             Shrimp (3 pieces)
@@ -515,7 +517,7 @@
                                     </td>
                                     <td>$3.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Izumi Dai Nigiri
                                         <div class="food-description">
                                             Tilapia (3 pieces)
@@ -523,7 +525,7 @@
                                     </td>
                                     <td>$3.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Yellowtail Nigiri
                                         <div class="food-description">
                                             Hamachi (3 pieces)
@@ -531,71 +533,71 @@
                                     </td>
                                     <td>$3.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <th>
                                         <h2>Sushi</h2>
                                     </th>
                                     <th> </th>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>California Roll</td>
                                     <td>$3.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Philadelphia Roll</td>
                                     <td>$3.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Boston Roll</td>
                                     <td>$4.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Shrimp Tempura Roll</td>
                                     <td>$4.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Crabmeat Cream Cheese Roll</td>
                                     <td>$3.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Spicy Salmon Roll</td>
                                     <td>$4.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Spicy Tuna Roll</td>
                                     <td>$4.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Tuna Roll</td>
                                     <td>$4.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Salmon Roll</td>
                                     <td>$4.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Alaska Roll</td>
                                     <td>$3.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Eel Avocado Roll</td>
                                     <td>$4.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Cucumber Roll</td>
                                     <td>$3.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Vegetable Roll</td>
                                     <td>$3.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <th>
                                         <h2>Chef Specialty Rolls</h2>
                                     </th>
                                     <th> </th>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Spider Roll
                                         <div class="food-description">
                                             Tempura soft-shelled crab, avocado and cucumber.
@@ -603,7 +605,7 @@
                                     </td>
                                     <td>$8.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Dragon Roll
                                         <div class="food-description">
                                             California roll inside, avocado, eel and fish roe on top.
@@ -611,7 +613,7 @@
                                     </td>
                                     <td>$8.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Rainbow Roll
                                         <div class="food-description">
                                             California roll inside, assorted raw fish on top.
@@ -619,7 +621,7 @@
                                     </td>
                                     <td>$9.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Dynamite Roll
                                         <div class="food-description">
                                             Spicy salmon, avocado inside, spicy tuna seaweed salad outside.
@@ -627,7 +629,7 @@
                                     </td>
                                     <td>$8.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Godzilla Roll
                                         <div class="food-description">
                                             Deep fried spicy tuna, avocado with scallion, tobiko and spicy sauce.
@@ -635,7 +637,7 @@
                                     </td>
                                     <td>$9.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Redwood Roll
                                         <div class="food-description">
                                             Shrimp tempura with spicy tuna on top.
@@ -643,7 +645,7 @@
                                     </td>
                                     <td>$8.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Mega Three Roll
                                         <div class="food-description">
                                             Salmon, tuna, yellow tail cucumber inside smelt eggs on top.
@@ -651,7 +653,7 @@
                                     </td>
                                     <td>$8.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>California Deluxe Roll
                                         <div class="food-description">
                                             California roll with grilled water eel on top.
@@ -659,7 +661,7 @@
                                     </td>
                                     <td>$7.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Caterpillar Roll
                                         <div class="food-description">
                                             Grilled freshwater eel and cucumber slices with an outer layer of avocado.
@@ -667,7 +669,7 @@
                                     </td>
                                     <td>$7.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Rock N' Roll
                                         <div class="food-description">
                                             Tuna, salmon, and cucumber topped with avocado.
@@ -675,7 +677,7 @@
                                     </td>
                                     <td>$7.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Fire Dragon Roll
                                         <div class="food-description">
                                             California roll topped with spicy tuna.
@@ -683,7 +685,7 @@
                                     </td>
                                     <td>$7.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Tuna Supreme Roll
                                         <div class="food-description">
                                             Spicy tuna topped with avocado.
@@ -691,7 +693,7 @@
                                     </td>
                                     <td>$7.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Salmon Supreme Roll
                                         <div class="food-description">
                                             Spicy salmon topped with avocado.
@@ -699,56 +701,60 @@
                                     </td>
                                     <td>$7.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <th>
                                         <h2>Dessert</h2>
                                     </th>
                                     <th> </th>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Sesame Balls (10 Pieces)</td>
                                     <td>$3.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Butterfly Candy (10 Pieces)</td>
                                     <td>$3.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Donuts (6 Pieces)</td>
                                     <td>$3.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Peach Bun (6 Pieces)</td>
                                     <td>$3.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <th>
                                         <h2>Beverages</h2>
                                     </th>
                                     <th> </th>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Coffee</td>
                                     <td>$1.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Sweet / Unsweetened Iced Tea</td>
                                     <td>$1.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Soft Drinks</td>
                                     <td>$1.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Hot Jasmine Tea</td>
                                     <td>$1.95</td>
                                 </tr>
-                                <tr>
+                                <tr class="menu-entry">
                                     <td>Green Tea</td>
                                     <td>$1.95</td>
                                 </tr>
                             </table>
 
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 footer-block" id="footer">
                         </div>
                     </div>
                     <div class="row bottom">
