@@ -47,6 +47,11 @@
     text-decoration: none;
 }
 
+#header {
+    padding-top: 1%;
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 767px) {
     #nav-block {
         height: 80px;
