@@ -41,6 +41,10 @@
     bottom: 0;
 }
 
+.footer a {
+    text-decoration: none;
+}
+
 @media screen and (max-width: 767px) {
     #nav-block {
         height: 80px;
