@@ -115,7 +115,6 @@
 
 .navbar-fixed .active {
     background-color: #d5a95a;
-    color: black;
 }
 
 .navbar-fixed ul {
@@ -136,7 +135,6 @@
 
 .navbar-fixed ul li a:hover {
     background-color: #d5a95a;
-    color: black;
     cursor: pointer;
 }
 
