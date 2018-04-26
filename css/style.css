@@ -34,9 +34,10 @@
 }
 
 #header h1 {
+    font-size: 3em;
     text-align: center;
     border-bottom: 1vh solid #da2d2d;
-    padding: 1em;
+    padding: 0.5em;
         background: linear-gradient( rgba(218, 45, 45, 0.35),
     rgba(218, 45, 45, 0.35)), url(../Resources/bg.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -61,11 +62,6 @@
 
 .footer a {
     text-decoration: none;
-}
-
-#header {
-    padding-top: 1%;
-    text-decoration: underline;
 }
 
 .menu {
@@ -192,4 +188,17 @@
     margin: auto;
     top: 3%;
     bottom: auto;
+}
+
+.buffet-info{
+    text-align: center;
+    padding: 10% 0;
+}
+
+.event-div{
+    padding: 20px;
+}
+
+.res-div{
+    padding: 20px;
 }
