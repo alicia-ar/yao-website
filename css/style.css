@@ -69,7 +69,7 @@
 }
 
 .menu {
-    width: 100%;
+    width: 90%;
 }
 
 @media screen and (max-width: 767px) {
@@ -109,15 +109,11 @@
 
 @media screen and (min-width: 768px) {
 
-
-    .footer-block {
-        height: 50vh;
+    .main-cont {
+        min-height: 60vh;
     }
     
     .bottom {
-        bottom: 0;
-        position: absolute;
-        width: 83.333333vw;
         font-size: 0.8vw;
     }
     
