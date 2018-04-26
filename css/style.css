@@ -207,3 +207,7 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+.col-form-legend {
+    padding-left: 3%;
+}
